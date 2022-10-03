@@ -1,7 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/				/*Update Interval*/	/*Update Signal*/
-	{"\x03 BAT ",	"$HOME/.local/bin/bar/battery",		5,			0	},
+	{"\x03 BAT ",	"$HOME/.local/bin/bar/battery",		1,			0	},
 	{"\x04 MEM ",	"$HOME/.local/bin/bar/memory",		5,			0	},
 	{"\x05 VOL ",	"$HOME/.local/bin/bar/volume",		0,			10	},
 	{"\x06 ",	"date '+%b %d (%a) %I:%M%p'",		5,			0	},
